@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D - Cart</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ====== HEADER ====== -->
+<div id="header">
+    <i class="fa-brands fa-d-and-d-beyond brand-icon"></i>
+
+    <ul id="navbar">
+        <li><a href="index.html"">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="cart.html" title="Cart"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+    </ul>
+</div>
+
+<!-- ====== HERO ====== -->
+<section id="cart-header">
+    <h1>#YourCart</h1>
+    <p>Review your items and proceed to checkout</p>
+</section>
+
+<!-- ====== CART TABLE ====== -->
+<section id="cart" class="section-p1">
+    <table>
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><i class="fas fa-times-circle"></i></td>
+                <td><img src="images/s3.png" alt=""></td>
+                <td>Casual T-Shirt</td>
+                <td>₹500</td>
+                <td><input type="number" value="1" title="Quantity" aria-label="Quantity"></td>
+                <td>₹500</td>
+            </tr>
+
+            <tr>
+                <td><i class="fas fa-times-circle"></i></td>
+                <td><img src="images/s2.png" alt=""></td>
+                <td>Stylish Shirt</td>
+                <td>₹800</td>
+                <td><input type="number" value="1" title="Quantity" aria-label="Quantity"></td>
+                <td>₹800</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- ====== CART BOTTOM ====== -->
+<section id="cart-add" class="section-p1">
+
+    <!-- COUPON -->
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Coupon Code">
+            <button>Apply</button>
+        </div>
+    </div>
+
+    <!-- SUBTOTAL -->
+    <div id="subtotal">
+        <h3>Cart Summary</h3>
+        <table>
+            <tr>
+                <td>Cart Total</td>
+                <td>₹1300</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>₹1300</strong></td>
+            </tr>
+        </table>
+
+        <button>Proceed to Checkout</button>
+    </div>
+
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h2 class="footer-logo">D&D</h2>
+            <p>Your trusted fashion partner</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-col">
+            <h4>Support</h4>
+            <a href="#">Help</a>
+            <a href="#">Track Order</a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>© 2026 D&D Ecommerce. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

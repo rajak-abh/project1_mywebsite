@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D- Ecommerce Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- ====== HEADER ====== -->
+<div id="header">
+    <i class="fa-brands fa-d-and-d-beyond brand-icon"></i>
+
+    <ul id="navbar">
+        <li><a  href="index.html"">Home</a></li>
+        <li><a  href="shop.html">Shop</a></li>
+        <li><a  href="blog.html">Blog</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" title="Cart"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+        
+    </ul>
+
+    <!-- Hamburger Button -->
+    <button id="mobile" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</div>
+
+<!-- Overlay for mobile menu -->
+<div id="overlay"></div>
+
+<!-- ====== HERO SECTION ====== -->
+<section id="about-header" class="blog-header">
+    <h1>#KnowUs</h1>
+    <p>We offer stylish, high-quality fashion essentials designed to keep you comfortable, confident, and on trend for every occasion.</p>
+</section>
+
+<section id="about-head" class="section-p1">
+  <img src="images/about3.png" alt="About Us Image">
+    <div class="about-content">
+        <h2>About Our Company</h2>
+        <p>Welcome to our store, your one-stop destination for modern, stylish, and high-quality fashion. We are passionate about bringing you the latest trends in clothing and accessories, carefully curated to suit every style, mood, and occasion. Our mission is to make fashion accessible, comfortable, and affordable without compromising on quality. From everyday essentials to statement pieces, each product is selected with attention to detail, durability, and design. We believe that what you wear should reflect your personality, which is why we offer a versatile collection that helps you express yourself with confidence. With a seamless shopping experience, secure payments, and reliable delivery, we are committed to providing you not just products, but a satisfying and trustworthy online shopping journey.</p>
+
+        <abbr title="We are a team of fashion enthusiasts dedicated to providing you with the best shopping experience.">We are a team of fashion enthusiasts dedicated to providing you with the best shopping experience.</abbr>
+
+        <br><br>
+        <style>
+            .scrolling-text {
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            .scrolling-text span {
+                display: inline-block;
+                animation: scroll-left 15s linear infinite;
+            }
+            @keyframes scroll-left {
+                0% { transform: translateX(100%); }
+                100% { transform: translateX(-100%); }
+            }
+        </style>
+        <div class="scrolling-text">
+            <span>Discover the latest trends and timeless classics in our collection. Shop now and elevate your style with us!</span>
+        </div>
+</section>
+
+<section id="about-app" class="section-p1">
+    <h1>Download Our <a href="#">App</a></h1>
+    <div class="video">
+ <video autoplay muted loop class="app-video">
+    <source src="images/abhishek.mp4" type="video/mp4">
+</video>
+    </div>
+</section>
+<section id="feature" class="section-p1">
+    <div class="sec">
+
+        <div class="fe">
+            <img class="shi" src="images/shipping.png" alt="Free Shipping">
+            <p class="text">Free Ship</p>
+        </div>
+
+        <div class="fe">
+            <img class="shi" src="images/secure.jpg" alt="Secure Payment">
+            <p class="text">Secure Pay</p>
+        </div>
+
+        <div class="fe">
+            <img class="shi" src="images/sell.png" alt="Best Deals">
+            <p class="text">Best Deals</p>
+        </div>
+
+        <div class="fe">
+            <img class="shi" src="images/cash.jpg" alt="Cash on Delivery">
+            <p class="text">COD</p>
+        </div>
+
+        <div class="fe">
+            <img class="shi" src="images/24.png" alt="24/7 Support">
+            <p class="text">24/7 Support</p>
+        </div>
+
+        <div class="fe">
+            <img class="shi" src="images/fast.png" alt="Fast Delivery">
+            <p class="text">Fast Delivery</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Logo + Contact -->
+        <div class="footer-col">
+            <h2 class="footer-logo">D&D</h2>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="footer-col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <!-- My Account -->
+        <div class="footer-col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <!-- Install App -->
+        <div class="footer-col">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="app-buttons">
+                <img src="images/app.png" alt="App Store">
+                <img src="images/play.png" alt="Google Play">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay.png" class="payment" alt="Payment Methods">
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>© 2026 D&D Ecommerce. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body> 
+</html>
